@@ -21,7 +21,7 @@ int
 mount(void * arg)
 {
   char dev_name[DEV_NAME_L];
-  char command[COMMAND_L] = "sudo mount ";
+  char command[COMMAND_L] = "sudo mount /dev/";
 
   system("lsblk");
 
