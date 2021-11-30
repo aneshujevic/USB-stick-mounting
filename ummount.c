@@ -19,7 +19,7 @@ int
 umount(void * arg)
 {
   char dev_name[DEV_NAME_L];
-  char command[COMMAND_L] = "sudo umount ";
+  char command[COMMAND_L] = "sudo umount /dev/";
   char reply;
 
   system("lsblk");
